@@ -45,8 +45,11 @@ font = ('Forque', '11')
 is_full = False  # Window fullscreen flag
 file_path = ''
 
-# you may need to change these acording to your operating system, this is what
-# shows up in the keyboard events when I press combined keys
+# You may need to change these acording to your operating system.
+# You can find out what corresponds to any key/combination by
+# printing the events and coping whatever shows up when you enable
+# return_keyboard_events=True in the Window element. Works on SublimeText.
+
 ESC = ''
 CTRL_O = ''
 SPACE = ' '
