@@ -94,6 +94,7 @@ while True:
     #print(event, values, sep='\n')
 
     if event is None:
+        # close event
         if player.is_playing():
             player.stop()
         window.Close()
