@@ -171,6 +171,7 @@ while True:
             player.audio_set_volume(cvol)
             window['Vol']('Vol: ' + str(cvol))
     elif event is 'timeout':
+        # this is to check when the video is over
         if not player.is_playing() and window['pause'].GetText() is ' ▍▍':
             player.stop()
             window['pause'](text=' ►')
