@@ -2,7 +2,7 @@ import PySimpleGUI as sg
 import vlc
 import os
 
-B = sg.Button  # Buttons
+B = sg.Button  # Button element
 T = sg.T  # Text element
 Canvas = sg.Canvas  # Canvas element
 
