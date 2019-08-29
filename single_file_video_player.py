@@ -65,9 +65,9 @@ layout = [[B(' ⬛ ', key='stop', tooltip='stop',
            B('', image_data=icon_open_new, image_subsample=3, key='open', button_color=button_color, image_size=(45, 25),
              font=font, tooltip='open new file\n(CTRL+O)'),
            T('Vol: ' + str(player.audio_get_volume()), justification='right', text_color='white', size=(Width, 1),
-             key='Vol', tooltip='Volume: (RePag/AvPag)\n∓5 seconds: (Left/Right)', background_color='black'),
+             key='Vol', tooltip='Volume: (Up/Down)\n∓5 seconds: (Left/Right)', background_color='black'),
            ],
-          [Canvas(key='video_canvas', tooltip='Volume: (RePag/AvPag)\n∓5 seconds: (Left/Right)',
+          [Canvas(key='video_canvas', tooltip='Volume: (Up/Down)\n∓5 seconds: (Left/Right)',
                   background_color='black', size=(Width, Height))
            ],
           ]
